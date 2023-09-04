@@ -94,7 +94,6 @@ def vectorize_adaptive_type(champion_adaptive_type):
 def vectorize_roles(champion_roles):
     retList = []
     for role in all_roles_list:
-        # print(role, (role in champion_roles))
         if(role in champion_roles):
             retList.append(1)
         else:
